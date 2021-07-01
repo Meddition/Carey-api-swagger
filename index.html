@@ -27,11 +27,6 @@
         margin:0;
         background: #fafafa;
       }
-      
-      .errors-wrapper
-      {
-          display: none !IMPORTANT;
-      }
     </style>
   </head>
 
@@ -44,7 +39,7 @@
     window.onload = function() {
       // Begin Swagger UI call region
       const ui = SwaggerUIBundle({
-        url: "swagger.json",
+        url: "swagger.yaml",
         dom_id: '#swagger-ui',
         deepLinking: true,
         presets: [
